@@ -1,0 +1,123 @@
+/*formatações gerais*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+}
+
+/*--Barra-de-navegação--*/
+a{
+    color: gray;
+    font-size: 1.1em;
+}
+
+.link-nav:hover{
+    color: rgb(82, 82, 82);
+}
+
+.ativo a{
+    border-bottom: 1px solid gold;
+    color: white;
+}
+
+.ativo a:hover{
+    color: white;
+}
+/*--FIM---Barra-de-navegação--*/
+
+
+/*--Home-principal--*/
+#foto-perfil{
+    background: url('fotos/perfil.png') no-repeat;
+    background-size: cover;
+    border: 3px solid gold;
+    box-shadow: 0px 0px 10px 3px gold;
+    width: 300px;
+    height: 300px;
+    margin-top: -50px;
+    border-radius: 10000px;
+}
+
+#txt-capa-home{
+    margin-left: 50%;
+}
+
+#Hello{
+    color: gold;
+    font-size: 0.8em;
+    padding-top: 5%;
+}
+
+#principal{
+    margin-top: 10%;
+}
+/*--FIM---Home-principal--*/
+
+
+/*--Skills--*/
+#skill{
+    background: rgb(56, 56, 56);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 6%;
+}
+
+#biografia{
+    padding-top: 12px;
+    height: 1px;
+    width: 54%;
+    border-bottom: 1px solid gold;
+    float: right;
+}
+
+#biografia2{
+    padding-top: 12px;
+    height: 1px;
+    width: 15%;
+    border-bottom: 1px solid gold;
+    float: left;
+}
+
+.skill-caixa{
+    cursor: context-menu;
+    display: block;
+    margin: 15px;
+    padding: 5px;
+    width: 150px;
+    transition: 2s;
+    height: 70px;
+    border: 1px solid rgb(173, 147, 0);
+    border-radius: 7px;
+}
+
+.skill-icone{
+    padding: 18px 5px 2px 10px;
+}
+
+.skill-caixa:hover .skill-transição{
+    transition: 2s;
+    transform: translate(0, -12px);   
+}
+
+.skill-transição{
+    padding-left: 5px;
+    display: inline-block;
+}
+
+.nivel-conhecimento{
+    font-size: 0.7em;
+    float: right;
+    margin-top: -12px;
+    color: black;
+}
+
+.skill-caixa:hover:hover .nivel-conhecimento{
+    color: white;
+    transition: 2s;
+}
+
+/*--FIM---Skills--*/
